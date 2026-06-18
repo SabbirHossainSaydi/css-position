@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: powderblue;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+nav {
+  background-color: wheat;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  flex: 3;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  margin: 15px 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+/* part-07 */
+.yellow {
+  background-color: orange;
+  position: sticky;
+  top: 48px;
+}
+.black {
+  background-color: black;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+/* part-03 */
+
+.red {
+  position: static;
+  left: 50px;
+  top: 50px;
+}
+
+/* part-04 */
+/* relative nijer contenter jaiga chare na */
+.blue {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+/* part-05 */
+.parent-container {
+  border: 2px solid green;
+  padding: 100px;
+  margin: 20px;
+  position: relative;
+}
+.child-box {
+  background-color: aqua;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* part-08 */
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 50px;
+}
+.boxer {
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.z-1 {
+  background-color: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+.z-2 {
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
+.z-3 {
+  background-color: green;
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+}
